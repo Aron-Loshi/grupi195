@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    font-family: 'Karla', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+  }
+  header {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  nav {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav .nav-list {
+    list-style: none;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+  }
+  .nav-list .nav-list-link {
+    text-decoration: none;
+    color: #222324;
+    font-weight: 400;
+    font-size: 24px;
+  }
+  main {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .container {
+    display: flex;
+    margin-top: 40px;
+    height: 46vh;
+  }
+  .main_quote {
+    background: #D2C7F0;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 40px;
+  }
+  .main_image {
+    width: 60%;
+  }
+  .cover_image {
+    width: 100%;
+    height: 100%;
+  }
+  .intro_quote {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .info_quote {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31.58px;
+  }
+  .btn {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222324;
+    border: 2px solid #222324;
+    padding: 10px 20px;
+  }
+  .btn_products {
+    background: #222324;
+    color: #fff;
+    margin-right: 20px;
+  }
+  .second_quote {
+    width: 40%;
+    display: flex;
+  }
+  .mission_quote {
+    font-size: 80px;
+    font-weight: 700;
+  }
+  .mission_quote span {
+    color: #D2C7F0;
+  }
+  .description {
+    width: 60%;
+  }
+  .description p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31.58px;
+  }
+  @media screen and (max-width : 45em) {
+      nav{
+        flex-direction: column;
+        justify-content: center;
+      }
+      .nav-list{
+        margin-top: 10px;
+      }
+      .container{
+        flex-direction: column;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+      }
+      .main_quote{
+        width: 100%;
+        padding-left: 0px;
+        justify-content: center;
+        align-items: center;
+        padding: 3%;
+        padding-bottom: 6%;
+      }
+      .main_image{
+        width: 100%;
+      }
+      .intro_quote{
+        font-size: 35px;
+        text-align: center;
+      }
+      .info_quote{
+        text-align: center;
+      }
+      .nav_buttons{
+        margin-top: 20px;
+      }
+      .description{
+        width: 90%;
+        margin-top: 20px;
+      }
+      .mission_quote{
+        font-size: 40px;
+        text-align: center;
+      }
+      p{
+       text-align: center;
+      }
+      .second_quote{
+        width: 90%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  }

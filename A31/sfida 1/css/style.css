@@ -1,0 +1,14 @@
+div{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+a{
+    opacity: 0.3;
+}
+
+/* a:hover damit wenn man mit der maus raufgeht das bild klar wird */
+
+a:hover{
+    opacity: 0.3;
+}

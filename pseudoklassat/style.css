@@ -1,0 +1,36 @@
+/* p::first-line{
+    color: blue;
+}
+nur die erste reihe Blau 
+
+p::first-letter{
+    font-size: 50px;
+    font-weight: bold;
+} */
+ 
+/* .description::before{
+    content:"BEFORE";
+    color: red;
+}
+
+.description::after{
+    content:"AFTER";
+    color: blue;
+} */
+
+
+.description::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    display: inline-block;
+}
+
+.description::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    display: inline-block;
+}

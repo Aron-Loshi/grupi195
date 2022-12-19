@@ -1,0 +1,24 @@
+/* variable globale */
+
+
+:root{
+    --ngyrakryesore: white;
+    --ngyraprapavijes: grey;
+    --trashesiaShkronjave: 500;
+    --madhesiaShkronjave: 50px;
+}
+
+
+body{
+    background-color: var(--trashesiaShkronjave);
+}
+
+h1{
+    color: var(--ngyrakryesore);
+}
+
+p{
+    color: var(--ngyrakryesore);
+    font-weight: var(--trashesiaShkronjave);
+    font-size: var(--madhesiaShkronjave);
+}
